@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMark</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    
+<header id="header" class="header">
+    <h1>BookMark | <span class="subtitle">read, record, revisit</span></h1>
+    <div id="search-bar" class="search-bar">
+    <input id="searchinput" class="search-box" type="text" placeholder="Search for a book">
+    <button type="submit" id="search" class="search-button" onclick="search()">Search</button>
+    </div>
+</header>
+
+<div id="active-book" class="float-left">
+    <div id="activebook-container" class="activebook-container">
+        <h2 id="activebook-title">Search for a Book</h2>
+        <img id="activebook-img" class="centerimg">
+        <div id="user-options" class="user-options">
+            <button type="submit" id="add-to-booklist" class="search-button" onclick="addtolist()">Add to My List</button>
+            <!-- <button type="submit" id="rate-book" class="search-button" onclick="rate();savebook();">Just Read</button> -->
+        </div>
+    </div>
+</div>
+<div id="my-list" class="float-right">
+    <h2 id="list-title">My List</h2>
+    <h3 id="booklist-message">You have no books to read. Add some!</h3>
+    <div id="book-list" class="book-list">
+    </div>
+</div>
+
+<div id="recommendation" class="bottom-container">
+    <h2 id="recommendation-title">Recommendations</h2>
+    <div id="rec-books" class="books-container">
+        <img id="rec-0" class="recbookimg" >
+        <img id="rec-1" class="recbookimg" >
+        <img id="rec-2" class="recbookimg" >
+    </div>
+</div>
+
+</body>
+<script src="assets/js/script.js"></script>
+</html>

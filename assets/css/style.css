@@ -1,0 +1,134 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+header {
+    margin:10px 10px;
+    border-bottom: 5px solid black;
+    height: 50px;
+}
+
+h1 {
+    padding-left: 10px;
+    margin:0;
+    display:inline-block;
+}
+
+.search-bar {
+    display:inline-block;
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+}
+.search-box {
+    display:inline-block;
+    border-radius: 4px;
+    border: 1px solid black;
+    height:30px;
+    text-align: center;
+}
+
+
+.search-button {
+    display:inline-block;
+    height:30px;
+    border-radius:4px;
+    border:none;
+    font-weight:600;
+    transition:0.2s;                                                                                                                                                                                                                                                                                                                             
+}
+
+.search-button:hover {
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+.float-left {
+    display:inline-block;
+    float:left;
+    width:30%;
+    margin:2% 5%;
+    border-radius: 8px;
+    height:500px;
+    background-color:lightgray;
+}
+
+.float-right {
+    display:inline-block;
+    float:inline-end;
+    width:50%;
+    margin:2% 5%;
+    border-radius: 8px;
+    height:500px;
+    background-color:lightgray;
+}
+
+h2 {
+    padding:20px;
+    text-align:center;
+}
+
+h3 {
+    padding:20px;
+    text-align:center;
+}
+
+.subtitle {
+    font-size:22px;
+    font-weight:700;
+    
+}
+
+.user-options {
+    display:none;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: lightgray;
+    margin:2% 5%;
+    border-radius: 8px;
+    height:350px;
+}
+
+.books-container {
+    margin:2%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.recbookimg {
+    display:flex;
+
+    height:200px;
+    
+}
+
+.activebook-container {
+    text-align: center;
+}
+
+.centerimg {
+    margin:10%;
+}
+
+.book-list {
+    display:flex;
+    justify-content: space-around;
+}
+
+.book-list ul li {
+    height:50px;
+    list-style: none;
+    font-weight:600;
+    margin:20px 0;
+}
+
+.book-list ul img {
+    height:50px;
+}
